@@ -10,29 +10,28 @@
     --azul-pretroleo-transparente: rgba(13, 223, 212, 0.315);
 }
 
-/*
- Seção da function mostre 
+/**
+ * * Seção da function mostre 
 
-#itens {
-    display: none;
-}
+ * * #itens {
+ * * display: none;
+ * * }
 
-h1 {
-    color: red;
-}
+ * * h1 {
+ * * color: red;
+ * * }
 
-.cor-laranja {
-    color: orange;
-}
+ * * .cor-laranja {
+ * * color: orange;
+ * * }
 
-.cor-vermelha {
-    color: red;
-}
+ * * .cor-vermelha {
+ * * color: red;
+ * * }
 
-.cor-azul {
-    color: blue;
-}
-
+ * * .cor-azul {
+ * * color: blue;
+ * * }
 */
 
 @keyframes cor-titulo {
