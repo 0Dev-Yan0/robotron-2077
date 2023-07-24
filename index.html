@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="img/Robotron 2000 - Rosa.png" />
+    <title>Robotron 2077</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<!-- Por favor não formatar o documento pois os caracteres usados para representar visualmente a subtração dos controles são o sinal de menor = (<) portanto o vscode os fecha junto tudo entre ele e o próximo sinal de maior = (>) automaticamente -->
+
+<!-- <h1 onclick="mostre()">Menu de cores</h1>
+<menu id="itens">
+    <ul class="cores">
+        <li class="cor-laranja">laranja</li>
+        <li class="cor-vermelha">vermelha</li>
+        <li class="cor-azul">azul</li>
+    </ul>
+</menu> -->
+
+<body>
+    <main>
+        <section class="robotron">
+            <img class="robo" src="img/Robotron 2000 - Rosa.png" alt="Robotron" id="robotron">
+            <figcaption class="titulo">ROBOTRON <br>2077</figcaption>
+        </section>
+
+        <section class="box estatisticas">
+            <div class="estatistica">
+                <p class="estatistica-titulo" id="texto">Força</p>
+                <div class="estatistica-valor">
+                    <p class="estatistica-numero" data-habilidades="Forca">768</p>
+                </div>
+            </div>
+            <div class="estatistica">
+                <p class="estatistica-titulo">Poder</p>
+                <div class="estatistica-valor">
+                    <p class="estatistica-numero" data-habilidades="Poder">630</p>
+                </div>
+            </div>
+            <div class="estatistica">
+                <p class="estatistica-titulo">Energia</p>
+                <div class="estatistica-valor">
+                    <p class="estatistica-numero" data-habilidades="Energia">289</p>
+                </div>
+            </div>
+            <div class="estatistica">
+                <p class="estatistica-titulo">Velocidade</p>
+                <div class="estatistica-valor">
+                    <p class="estatistica-numero" data-habilidades="Velocidade">597</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="equipamentos">
+            <form action="" class="montador">
+                <div class="box montador-conteudo">
+                    <div class="peca">
+                        <label for="" class="peca-titulo">Braços</label>
+                        <div class="controle">
+                            <buttom class="controle-ajuste" data-valor="-" data-atributo="Bracos">
+                                <</buttom> <input type="text" class="controle-contador" value="0" data-contagem="">
+                                    <buttom class="controle-ajuste" data-valor="+" data-atributo="Bracos">></buttom>
+                        </div>
+                    </div>
+                    <hr class="linha">
+                    <div class="peca">
+                        <label for="" class="peca-titulo">Blindagem</label>
+                        <div class="controle">
+                            <buttom class="controle-ajuste" data-valor="-" data-atributo="Blindagem">
+                                <</buttom> <input type="text" class="controle-contador" value="0" data-contagem="">
+                                    <buttom class="controle-ajuste" data-valor="+" data-atributo="Blindagem">></buttom>
+                        </div>
+                    </div>
+                    <hr class="linha">
+                    <div class="peca">
+                        <label for="" class="peca-titulo">Núcleos</label>
+                        <div class="controle">
+                            <buttom class="controle-ajuste" data-valor="-" data-atributo="Nucleos">
+                                <</buttom> <input type="text" class="controle-contador" value="0" data-contagem="">
+                                    <buttom class="controle-ajuste" data-valor="+" data-atributo="Nucleos">></buttom>
+                        </div>
+                    </div>
+                    <hr class="linha">
+                    <div class="peca">
+                        <label for="" class="peca-titulo">Pernas</label>
+                        <div class="controle">
+                            <buttom class="controle-ajuste" data-valor="-" data-atributo="Pernas">
+                                <</buttom> <input type="text" class="controle-contador" value="0" data-contagem="">
+                                    <buttom class="controle-ajuste" data-valor="+" data-atributo="Pernas">></buttom>
+                        </div>
+                    </div>
+                    <hr class="linha">
+                    <div class="peca">
+                        <label for="" class="peca-titulo">Foguetes</label>
+                        <div class="controle">
+                            <buttom class="controle-ajuste" data-valor="-" data-atributo="Foguetes">
+                                <</buttom> <input type="text" class="controle-contador" value="0" data-contagem="">
+                                    <buttom class="controle-ajuste" data-valor="+" data-atributo="Foguetes">></buttom>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="Iniciar produção" class="producao" id="producao">
+            </form>
+        </section>
+    </main>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
